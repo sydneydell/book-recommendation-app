@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  vertical-align: middle;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  margin-left: 20px;
+}
+
+.nav-list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-list li a:hover {
+  color: #ddd;
+}
+
+.new-rating {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+  margin-top: 60px;
+}
+
+.add-rating-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-rating-button:hover {
+  background-color: #45a049;
+}
+
+.plus-sign {
+  margin-right: 8px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.reading-history {
+  margin-top: 20px; /* Adjust margin to control space under the Add Rating button */
+  padding: 0 20px; /* Add horizontal padding to align with the page */
+}
+
+.reading-history h2 {
+  text-align: left;
+  font-size: 24px;
+  color: #333;
+}
+
+.reading-history p {
+  text-align: left;
+  font-style: italic;
+  font-size: 16px;
+  color: #666;
+}
